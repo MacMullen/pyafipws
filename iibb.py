@@ -24,7 +24,7 @@ import tempfile
 import traceback
 from pysimplesoap.simplexml import SimpleXMLElement
 
-from .utils import WebClient
+from utils import WebClient
 
 HOMO = False
 CACERT = "conf/arba.crt"   # establecimiento de canal seguro (en producción)
